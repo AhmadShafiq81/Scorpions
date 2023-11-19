@@ -4,9 +4,10 @@ body, html{
     font-family: 'Courier New', Courier, monospace;
 }
 .main-body{
-    height: 100vh;
+    height: 100dvh;
     display: flex;
-    background-color: rgb(100, 71, 71);
+/*     background-color: rgb(100, 71, 71); */
+    background-color:red;
 }
 .content{
     background-color: rgb(255, 190, 190);
