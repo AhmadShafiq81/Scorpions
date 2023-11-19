@@ -1,0 +1,28 @@
+body, html{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-body{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(100, 71, 71);
+}
+.content{
+    background-color: rgb(255, 190, 190);
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: maroon;
+    box-shadow: 0px 0px 5000px rgb(255, 190, 190);
+}
+@media (max-width:767px){
+    .content{
+        width: 85%;
+        height: 95%;
+    }
+}
